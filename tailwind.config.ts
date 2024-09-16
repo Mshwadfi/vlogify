@@ -55,7 +55,23 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  teal: {
+			50: '#F0FDF4',
+			100: '#CCFBF1',
+			200: '#99F6E4',
+			300: '#5EEAD4',
+			400: '#2DD4BF',
+			500: '#14B8A6',
+			600: '#0D9488',
+			700: '#0F766E',
+			800: '#115E59',
+			900: '#134E4A',
+		  },
+		  secondary: {
+			coral: '#FB7185',
+			indigo: '#6366F1',
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],
